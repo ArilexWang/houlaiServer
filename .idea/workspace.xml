@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df20dc56-e140-4c55-b71c-152c1703ed43" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iosapp/migrations/0001_initial.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iosapp/migrations/0002_auto_20180617_1123.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iosapp/migrations/0003_userinfo.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iosapp/migrations/0004_userinfo_sex.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iosapp/migrations/0005_commentinfo.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iosapp/migrations/0006_delete_commentinfo.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iosapp/migrations/0007_commentinfo.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iosapp/migrations/0008_delete_commentinfo.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iosapp/migrations/0009_commentinfo.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="df20dc56-e140-4c55-b71c-152c1703ed43" name="Default" comment="" />
     <ignored path="houlai.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -120,8 +109,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/houlai/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
+            <state relative-caret-position="60">
+              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
               <folding>
                 <element signature="e#630#662#0" expanded="true" />
               </folding>
@@ -843,8 +832,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/houlai/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
+        <state relative-caret-position="60">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
           <folding>
             <element signature="e#630#662#0" expanded="true" />
           </folding>
