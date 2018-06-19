@@ -51,7 +51,7 @@ def getUserInfo(access_token,openid):
     dic = eval(res.decode("utf-8"))
     print(dic)
     findOrCreateUserInfoModel(dic)
-    return res.decode("utf-8")
+    return res
 
 # 从数据库中读取密钥
 def getSecureInfoFromDB():
