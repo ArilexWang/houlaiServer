@@ -26,7 +26,7 @@ def index(res):
         queryString = parse.urlencode(authData)
         u = request.urlopen(wx_acess_url + '?' + queryString)
         resquest = u.read()
-        dic = eval(resquest.decode("utf-8"))
+        dic = eval(resquest)
         print(dic)
         if "access_token" in dic:
             print(dic["access_token"])
@@ -48,8 +48,7 @@ def getUserInfo(access_token,openid):
     queryString = parse.urlencode(accessdata)
     u = request.urlopen(wx_userinfo_url+'?'+queryString)
     res = u.read()
-    dic = eval(res.decode("utf-8"))
-    print(dic)
+    dic = eval(res)
     findOrCreateUserInfoModel(dic)
     return res
 
@@ -68,7 +67,7 @@ def getRefreshToken(refresh_token):
     paraString = parse.urlencode(para)
     u = request.urlopen(wx_refresh_url + '?' + paraString)
     res = u.read()
-    dic = eval(res.decode("utf-8"))
+    dic = eval(res)
     return dic["access_token"]
 
 # 检验授权access_token是否有效
@@ -80,7 +79,7 @@ def checkAccessToken(openid, access_token):
     paraString = parse.urlencode(para)
     u = request.urlopen(wx_auth_url + '?' + paraString)
     res = u.read()
-    dic = eval(res.decode("utf-8"))
+    dic = eval(res)
     if "errcode" in dic:
         print(dic["errmsg"])
         return False
@@ -121,7 +120,7 @@ def loginWithCode(req):
     queryString = parse.urlencode(authData)
     u = request.urlopen(wx_acess_url + '?' + queryString)
     resquest = u.read()
-    dic = eval(resquest.decode("utf-8"))
+    dic = eval(resquest)
     if "access_token" in dic:
         secureinfo = getSecureInfoFromDB()
         if(secureinfo == None):
